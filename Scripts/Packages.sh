@@ -92,6 +92,13 @@ UPDATE_PACKAGE "mt5700m" "LianXia233/luci-app-mt5700m" "main"
 UPDATE_PACKAGE "netmonitor" "LianXia233/luci-app-netmonitor" "main"
 UPDATE_PACKAGE "qmodem-generic" "LianXia233/luci-app-qmodem-generic" "main"
 
+UPDATE_PACKAGE "luci-app-ssr-plus" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "shadowsocksr-libev" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "redsocks2" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "dns2socks" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "microsocks" "fw876/helloworld" "master" "pkg"
+UPDATE_PACKAGE "simple-obfs" "fw876/helloworld" "master" "pkg"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
